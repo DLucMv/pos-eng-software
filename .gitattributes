@@ -1,0 +1,7 @@
+# .gitattributes
+# Change made to ensure REPRODUCIBILITY
+# Ensures that all text files use LF (Unix/Linux standard) in the repository and on local machines.
+* text=auto eol=lf
+
+# Exceptions (if you have specific Windows files, such as .bat)
+*.bat eol=crlf
